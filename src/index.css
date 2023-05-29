@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hostshare';
+  src: url(./assets/fonts/AirbnbCerealBlack.otf);
+}
+
+@font-face {
+    font-family: 'HostshareBold';
+    font-weight: 700;
+    src: url(./assets/fonts/AirbnbCerealBold.otf);
+}
+
+@font-face {
+    font-family: 'HostshareBook';
+    font-weight: 'normal';
+    src: url(./assets/fonts/AirbnbCerealBook.otf);
+}
+
+@font-face {
+    font-family: 'HostshareLight';
+    font-weight: 300;
+    src: url(./assets/fonts/AirbnbCerealLight.otf);
+}
+
+@font-face {
+    font-family: 'HostshareMedium';
+    font-weight: 600;
+    src: url(./assets/fonts/AirbnbCerealMedium.otf);
+}
+
+@font-face {
+  font-family: 'HostshareXBold';
+  font-weight: 900;
+  src: url(./assets/fonts/AirbnbCerealXBold.otf);
+}
+
+@layer base {
+  body {
+    /* @apply !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-[#FF5A5F]; */
+  }
+}
+
+html,
+body,
+:root{
+    height: 100%;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+    z-index: 0 !important;
+}
+
+.rdrMonth {
+    width: 100% !important;
+}
+
+.rdrCalendarWrapper {
+    font-size: 16px !important;
+    width: 100% !important;
+}
